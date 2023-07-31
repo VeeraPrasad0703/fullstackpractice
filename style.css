@@ -1,0 +1,48 @@
+.container
+{
+    display:grid;
+    grid-template-columns: auto auto;
+    line-height: 30px;
+    padding: 10px;
+    background-color:cyan;
+    border-radius: 6px;
+    margin: 0px;
+    height: 100px;
+    width: 700px;
+}
+h1{
+    background-color: antiquewhite;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 1px;
+}
+h1:hover{
+    background-color: burlywood;
+}
+h3{
+    background-color: beige;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 1px;
+}
+h3:hover{
+    background-color: azure;
+}
+.edu{
+    background-color: aquamarine;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 1px;
+}
+
+.achiev{
+    background-color: aqua;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 1px;
+}
+body{
+    background-image: url("https://img.freepik.com/premium-photo/bookworms-haven-flat-lay-illustration-generative-ai_549702-707.jpg");
+    /* background-repeat: no-repeat; */
+    margin: 1px;
+}

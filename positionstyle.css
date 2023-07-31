@@ -1,0 +1,29 @@
+body{
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+}
+.pos
+{
+    position: relative;
+    /* use position:relative when you want to change position of an 
+    html element relative to its original position */
+    width: 300px;
+    height: 300px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border: 2px solid black;
+}
+.child
+{
+    position: absolute;
+    /* position: relative can only be applied when the parent is position:relative */
+    border: 2px solid red;
+    background-color: aqua;
+    width:30%;
+    height: 30%;
+    top:50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+} 
